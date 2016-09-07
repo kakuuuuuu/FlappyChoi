@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA221FC51D303AF000368ECF"
-               BuildableName = "GameTest.app"
-               BlueprintName = "GameTest"
-               ReferencedContainer = "container:GameTest.xcodeproj">
+               BuildableName = "Flappy Choi.app"
+               BlueprintName = "Flappy Choi"
+               ReferencedContainer = "container:Flappy Choi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA221FDD1D303AF100368ECF"
-               BuildableName = "GameTestTests.xctest"
-               BlueprintName = "GameTestTests"
-               ReferencedContainer = "container:GameTest.xcodeproj">
+               BuildableName = "Flappy Choi.xctest"
+               BlueprintName = "Flappy ChoiTests"
+               ReferencedContainer = "container:Flappy Choi.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA221FE81D303AF100368ECF"
-               BuildableName = "GameTestUITests.xctest"
-               BlueprintName = "GameTestUITests"
-               ReferencedContainer = "container:GameTest.xcodeproj">
+               BuildableName = "Flappy Choi.xctest"
+               BlueprintName = "Flappy ChoiUITests"
+               ReferencedContainer = "container:Flappy Choi.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA221FC51D303AF000368ECF"
-            BuildableName = "GameTest.app"
-            BlueprintName = "GameTest"
-            ReferencedContainer = "container:GameTest.xcodeproj">
+            BuildableName = "Flappy Choi.app"
+            BlueprintName = "Flappy Choi"
+            ReferencedContainer = "container:Flappy Choi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA221FC51D303AF000368ECF"
-            BuildableName = "GameTest.app"
-            BlueprintName = "GameTest"
-            ReferencedContainer = "container:GameTest.xcodeproj">
+            BuildableName = "Flappy Choi.app"
+            BlueprintName = "Flappy Choi"
+            ReferencedContainer = "container:Flappy Choi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA221FC51D303AF000368ECF"
-            BuildableName = "GameTest.app"
-            BlueprintName = "GameTest"
-            ReferencedContainer = "container:GameTest.xcodeproj">
+            BuildableName = "Flappy Choi.app"
+            BlueprintName = "Flappy Choi"
+            ReferencedContainer = "container:Flappy Choi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -16,6 +16,14 @@
 		AA221FD81D303AF100368ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA221FD61D303AF100368ECF /* LaunchScreen.storyboard */; };
 		AA221FE31D303AF100368ECF /* GameTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA221FE21D303AF100368ECF /* GameTestTests.swift */; };
 		AA221FEE1D303AF100368ECF /* GameTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA221FED1D303AF100368ECF /* GameTestUITests.swift */; };
+		AA2220061D30499E00368ECF /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2220051D30499E00368ECF /* GameOverScene.swift */; };
+		AA754C0E1D340E3C00BC6EC8 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA754C0D1D340E3C00BC6EC8 /* RandomFunction.swift */; };
+		AA754C121D34192100BC6EC8 /* flappy.TTF in Resources */ = {isa = PBXBuildFile; fileRef = AA754C111D34192100BC6EC8 /* flappy.TTF */; };
+		AA754C141D3419A800BC6EC8 /* Chava-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA754C131D3419A800BC6EC8 /* Chava-Regular.ttf */; };
+		AA754C181D342B7C00BC6EC8 /* death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA754C171D342B7C00BC6EC8 /* death.mp3 */; };
+		AA754C1A1D342B8C00BC6EC8 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA754C191D342B8C00BC6EC8 /* jump.mp3 */; };
+		AA754C1D1D3445E500BC6EC8 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA754C1B1D3445E500BC6EC8 /* explosion.sks */; };
+		AA754C1E1D3445E500BC6EC8 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA754C1C1D3445E500BC6EC8 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA221FC61D303AF000368ECF /* GameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA221FC61D303AF000368ECF /* Flappy Choi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Choi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA221FC91D303AF000368ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA221FCB1D303AF000368ECF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AA221FCD1D303AF000368ECF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -45,12 +53,20 @@
 		AA221FD41D303AF000368ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA221FD71D303AF100368ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA221FD91D303AF100368ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA221FDE1D303AF100368ECF /* GameTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA221FDE1D303AF100368ECF /* Flappy Choi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Choi.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA221FE21D303AF100368ECF /* GameTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTestTests.swift; sourceTree = "<group>"; };
 		AA221FE41D303AF100368ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA221FE91D303AF100368ECF /* GameTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA221FE91D303AF100368ECF /* Flappy Choi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy Choi.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA221FED1D303AF100368ECF /* GameTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTestUITests.swift; sourceTree = "<group>"; };
 		AA221FEF1D303AF100368ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2220051D30499E00368ECF /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AA754C0D1D340E3C00BC6EC8 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		AA754C111D34192100BC6EC8 /* flappy.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = flappy.TTF; sourceTree = "<group>"; };
+		AA754C131D3419A800BC6EC8 /* Chava-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chava-Regular.ttf"; sourceTree = "<group>"; };
+		AA754C171D342B7C00BC6EC8 /* death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = death.mp3; sourceTree = "<group>"; };
+		AA754C191D342B8C00BC6EC8 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		AA754C1B1D3445E500BC6EC8 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = explosion.sks; path = ../explosion.sks; sourceTree = "<group>"; };
+		AA754C1C1D3445E500BC6EC8 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = ../spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		AA221FBD1D303AF000368ECF = {
 			isa = PBXGroup;
 			children = (
+				AA754C131D3419A800BC6EC8 /* Chava-Regular.ttf */,
 				AA221FC81D303AF000368ECF /* GameTest */,
 				AA221FE11D303AF100368ECF /* GameTestTests */,
 				AA221FEC1D303AF100368ECF /* GameTestUITests */,
@@ -91,9 +108,9 @@
 		AA221FC71D303AF000368ECF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA221FC61D303AF000368ECF /* GameTest.app */,
-				AA221FDE1D303AF100368ECF /* GameTestTests.xctest */,
-				AA221FE91D303AF100368ECF /* GameTestUITests.xctest */,
+				AA221FC61D303AF000368ECF /* Flappy Choi.app */,
+				AA221FDE1D303AF100368ECF /* Flappy Choi.xctest */,
+				AA221FE91D303AF100368ECF /* Flappy Choi.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +118,18 @@
 		AA221FC81D303AF000368ECF /* GameTest */ = {
 			isa = PBXGroup;
 			children = (
+				AA754C1C1D3445E500BC6EC8 /* spark.png */,
+				AA754C1B1D3445E500BC6EC8 /* explosion.sks */,
 				AA221FC91D303AF000368ECF /* AppDelegate.swift */,
 				AA221FCB1D303AF000368ECF /* GameScene.sks */,
 				AA221FCD1D303AF000368ECF /* GameScene.swift */,
+				AA754C0D1D340E3C00BC6EC8 /* RandomFunction.swift */,
+				AA2220051D30499E00368ECF /* GameOverScene.swift */,
 				AA221FCF1D303AF000368ECF /* GameViewController.swift */,
+				AA754C171D342B7C00BC6EC8 /* death.mp3 */,
+				AA754C191D342B8C00BC6EC8 /* jump.mp3 */,
 				AA221FD11D303AF000368ECF /* Main.storyboard */,
+				AA754C111D34192100BC6EC8 /* flappy.TTF */,
 				AA221FD41D303AF000368ECF /* Assets.xcassets */,
 				AA221FD61D303AF100368ECF /* LaunchScreen.storyboard */,
 				AA221FD91D303AF100368ECF /* Info.plist */,
@@ -134,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA221FC51D303AF000368ECF /* GameTest */ = {
+		AA221FC51D303AF000368ECF /* Flappy Choi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA221FF21D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTest" */;
+			buildConfigurationList = AA221FF21D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy Choi" */;
 			buildPhases = (
 				AA221FC21D303AF000368ECF /* Sources */,
 				AA221FC31D303AF000368ECF /* Frameworks */,
@@ -146,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = GameTest;
+			name = "Flappy Choi";
 			productName = GameTest;
-			productReference = AA221FC61D303AF000368ECF /* GameTest.app */;
+			productReference = AA221FC61D303AF000368ECF /* Flappy Choi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA221FDD1D303AF100368ECF /* GameTestTests */ = {
+		AA221FDD1D303AF100368ECF /* Flappy ChoiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA221FF51D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTestTests" */;
+			buildConfigurationList = AA221FF51D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy ChoiTests" */;
 			buildPhases = (
 				AA221FDA1D303AF100368ECF /* Sources */,
 				AA221FDB1D303AF100368ECF /* Frameworks */,
@@ -164,14 +188,14 @@
 			dependencies = (
 				AA221FE01D303AF100368ECF /* PBXTargetDependency */,
 			);
-			name = GameTestTests;
+			name = "Flappy ChoiTests";
 			productName = GameTestTests;
-			productReference = AA221FDE1D303AF100368ECF /* GameTestTests.xctest */;
+			productReference = AA221FDE1D303AF100368ECF /* Flappy Choi.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA221FE81D303AF100368ECF /* GameTestUITests */ = {
+		AA221FE81D303AF100368ECF /* Flappy ChoiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA221FF81D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTestUITests" */;
+			buildConfigurationList = AA221FF81D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy ChoiUITests" */;
 			buildPhases = (
 				AA221FE51D303AF100368ECF /* Sources */,
 				AA221FE61D303AF100368ECF /* Frameworks */,
@@ -182,9 +206,9 @@
 			dependencies = (
 				AA221FEB1D303AF100368ECF /* PBXTargetDependency */,
 			);
-			name = GameTestUITests;
+			name = "Flappy ChoiUITests";
 			productName = GameTestUITests;
-			productReference = AA221FE91D303AF100368ECF /* GameTestUITests.xctest */;
+			productReference = AA221FE91D303AF100368ECF /* Flappy Choi.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,6 +223,7 @@
 				TargetAttributes = {
 					AA221FC51D303AF000368ECF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N7CDR799TN;
 					};
 					AA221FDD1D303AF100368ECF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -210,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA221FC11D303AF000368ECF /* Build configuration list for PBXProject "GameTest" */;
+			buildConfigurationList = AA221FC11D303AF000368ECF /* Build configuration list for PBXProject "Flappy Choi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA221FC51D303AF000368ECF /* GameTest */,
-				AA221FDD1D303AF100368ECF /* GameTestTests */,
-				AA221FE81D303AF100368ECF /* GameTestUITests */,
+				AA221FC51D303AF000368ECF /* Flappy Choi */,
+				AA221FDD1D303AF100368ECF /* Flappy ChoiTests */,
+				AA221FE81D303AF100368ECF /* Flappy ChoiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,10 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA754C141D3419A800BC6EC8 /* Chava-Regular.ttf in Resources */,
+				AA754C1A1D342B8C00BC6EC8 /* jump.mp3 in Resources */,
 				AA221FCC1D303AF000368ECF /* GameScene.sks in Resources */,
+				AA754C1D1D3445E500BC6EC8 /* explosion.sks in Resources */,
 				AA221FD81D303AF100368ECF /* LaunchScreen.storyboard in Resources */,
+				AA754C1E1D3445E500BC6EC8 /* spark.png in Resources */,
 				AA221FD51D303AF000368ECF /* Assets.xcassets in Resources */,
 				AA221FD31D303AF000368ECF /* Main.storyboard in Resources */,
+				AA754C181D342B7C00BC6EC8 /* death.mp3 in Resources */,
+				AA754C121D34192100BC6EC8 /* flappy.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +296,8 @@
 			files = (
 				AA221FCE1D303AF000368ECF /* GameScene.swift in Sources */,
 				AA221FD01D303AF000368ECF /* GameViewController.swift in Sources */,
+				AA2220061D30499E00368ECF /* GameOverScene.swift in Sources */,
+				AA754C0E1D340E3C00BC6EC8 /* RandomFunction.swift in Sources */,
 				AA221FCA1D303AF000368ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		AA221FE01D303AF100368ECF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA221FC51D303AF000368ECF /* GameTest */;
+			target = AA221FC51D303AF000368ECF /* Flappy Choi */;
 			targetProxy = AA221FDF1D303AF100368ECF /* PBXContainerItemProxy */;
 		};
 		AA221FEB1D303AF100368ECF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA221FC51D303AF000368ECF /* GameTest */;
+			target = AA221FC51D303AF000368ECF /* Flappy Choi */;
 			targetProxy = AA221FEA1D303AF100368ECF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.FlappyChoi;
+				PRODUCT_NAME = "Flappy Choi";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.FlappyChoi;
+				PRODUCT_NAME = "Flappy Choi";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -435,8 +474,8 @@
 				INFOPLIST_FILE = GameTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameTest.app/GameTest";
+				PRODUCT_NAME = "Flappy Choi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Choi.app/Flappy Choi";
 			};
 			name = Debug;
 		};
@@ -447,8 +486,8 @@
 				INFOPLIST_FILE = GameTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameTest.app/GameTest";
+				PRODUCT_NAME = "Flappy Choi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Choi.app/Flappy Choi";
 			};
 			name = Release;
 		};
@@ -459,7 +498,7 @@
 				INFOPLIST_FILE = GameTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Choi";
 				TEST_TARGET_NAME = GameTest;
 			};
 			name = Debug;
@@ -470,7 +509,7 @@
 				INFOPLIST_FILE = GameTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KyleTsuyemura.GameTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Flappy Choi";
 				TEST_TARGET_NAME = GameTest;
 			};
 			name = Release;
@@ -478,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA221FC11D303AF000368ECF /* Build configuration list for PBXProject "GameTest" */ = {
+		AA221FC11D303AF000368ECF /* Build configuration list for PBXProject "Flappy Choi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA221FF01D303AF100368ECF /* Debug */,
@@ -487,29 +526,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA221FF21D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTest" */ = {
+		AA221FF21D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy Choi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA221FF31D303AF100368ECF /* Debug */,
 				AA221FF41D303AF100368ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AA221FF51D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTestTests" */ = {
+		AA221FF51D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy ChoiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA221FF61D303AF100368ECF /* Debug */,
 				AA221FF71D303AF100368ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AA221FF81D303AF100368ECF /* Build configuration list for PBXNativeTarget "GameTestUITests" */ = {
+		AA221FF81D303AF100368ECF /* Build configuration list for PBXNativeTarget "Flappy ChoiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA221FF91D303AF100368ECF /* Debug */,
 				AA221FFA1D303AF100368ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
